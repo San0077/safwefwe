@@ -1,0 +1,104 @@
+
+// 
+//var url="https://624a7f87852fe6ebf887cb38.mockapi.io/users"
+
+// function fun(){
+// var res = fetch(url)
+// var res1=res.then((data)=>data.json());
+// res1.then((d)=>{
+//     for(var i in d){
+//         console.log(d[i].name)
+//     }
+// })}
+// fun();
+
+
+// function create(){
+//     var data={
+//         name:"santhosh",
+//         email:"santhoshBalaji304@gmail.in"
+//     };
+//     fetch(url,{
+//                 method:"POST",
+//                 body:JSON.stringify(data),
+//                 headers:{
+//                     "Content-Type":"application/json"
+//                 }
+//     })
+// }
+//create()
+// function update(){
+//     var data={
+//         name:"santhosh",
+//         email:"santhoshBalaji304@gmail.com"
+//     };
+//     fetch(url+"/12",{
+//                 method:"PUT",
+//                 body:JSON.stringify(data),
+//                 headers:{
+//                     "Content-Type":"application/json"
+//                 }
+//     })
+// }
+//update()
+//  var user="/"
+//  var user1=7
+// var url="https://624a7f87852fe6ebf887cb41.mockapi.io/users"
+// function d(){
+   
+//     fetch(url+"/15",{
+//                 method:"DELETE",
+              
+//     })
+// }
+// d()
+ //var url="https://restcountries.com/v3.1/all";
+// var fen= fetch(url);
+// var res=fen.then((data1)=>data1.json())
+// res.then((data)=>
+// {
+//     for(var i =0;i<data.length;i++){
+//         // console.log(data)
+//         var id=document.getElementById("main")
+
+//         var col=document.createElement("div");
+//         col.className="col-lg-4 col-sm-12 mar";
+
+//         var card=document.createElement("div");
+//         card.className="card text-center"
+
+//         var header=document.createElement("div");
+//         header.innerHTML=data[i].region
+//          card.style.width="18rem";
+//          card.style.height="18rem";
+
+//         var cardBody=document.createElement("div");
+//          cardBody.className="card-body"
+//          //capital
+//          var capital= tags("h5","span","capital")
+//          capital.innerHTML=`capital : ${data[i].capital}`
+//          //region
+//          var region= tags("h5","span","region");
+//          region.innerHTML=`region : ${data[i].region}`
+//          //population 
+//          var population= tags("h5","span","population");
+//          population.innerHTML=`population : ${data[i].population}`;
+         
+//         var img = document.createElement("img");
+//         img.setAttribute("src",data[i].flags.png)
+//         img.className="card-img-top";
+
+//         cardBody.append(capital,region,population)
+//         card.append(header,img,cardBody)
+//         col.append(card)
+//         id.append(col)
+//    }
+// }
+// )
+// function tags(tag,tag1,id){
+//         var ele = document.createElement(tag)
+//         var ele1 = document.createElement(tag1)
+//         ele1.setAttribute("id",id)
+//         ele.append(ele1)
+//         return ele
+// }
